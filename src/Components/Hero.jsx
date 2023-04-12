@@ -1,8 +1,7 @@
 import React from 'react'
-import Logo from '../images/ice.svg'
 import { motion } from "framer-motion";
 import Tilt from "react-tilt";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn} from "../utils/motion";
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Moon from '@iconscout/react-unicons/icons/uil-brain'
 

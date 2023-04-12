@@ -1,8 +1,4 @@
 import React from 'react'
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-import { styles } from '../styles';
-import { Link } from 'react-router-dom';
-import Github from '@iconscout/react-unicons/icons/uil-github'
 import Moon from '@iconscout/react-unicons/icons/uil-brain'
 
 
