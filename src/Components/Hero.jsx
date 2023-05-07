@@ -1,37 +1,42 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Tilt from "react-tilt";
-import { fadeIn} from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import Github from '@iconscout/react-unicons/icons/uil-github'
-import Moon from '@iconscout/react-unicons/icons/uil-brain'
+
+import Logo from '../images/logo.png'
+import vid from '../images/vsc.webm';
+import Back from '../images/back.png'
+import Navbar from './Navbar';
 
 
 const Hero = ({ index }) => {
   return (
 
-    <div className='flex flex-col items-center  h-[80vh] '>
-      <Tilt className=' ' >
-        <motion.div
-          variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-          className='green-pink-gradient p-[1px] rounded-[20px] text-white shadow-card flex flex-col mt-5
-          items-center w-[70vw] h-[70vh]'
-        >
-          <Moon className='shape-shadow' size="240" color="#61DAFB" />
-          <div>
-            <span className=' text-[2rem] '> Wellcomme to </span>
-            <span className=' text-[2rem] text-[#d400ff]'> Icekiwi  </span>
+    <header>
+      <video src={vid} autoPlay muted loop />
+
+      <Navbar />
+      <div className='header-content'>
+
+        <div className=' part2 '>
+
+          <h1 className='headertext'> Un over our servicis and greate proposal for clients </h1>
+
+          <div className='buttons'>
+            <button href='' className=' ' >  contact us </button>
+            <button href='' className='cb'  >Donate</button>
           </div>
-          <span className=''> Un over our servicis and greate proposal for clients </span>
 
-          <div className='  sm:m-[20px] mt-8 flex gap-5 font-bold '>
+        </div>
 
-            <button href='' className='button h-button flex gap-2' > <Github /> Join us </button>
-            <button href='' className='button h-button' > Contact us</button>
-          </div>
-        </motion.div>
-      </Tilt>
+      </div>
 
-    </div>
+
+
+
+
+    </header>
   )
 }
 

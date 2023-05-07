@@ -1,24 +1,23 @@
 import React from 'react'
 import Moon from '@iconscout/react-unicons/icons/uil-brain'
-
+import Logo from '../images/logo.png'
 
 
 const Navbar = () => {
   return (
-   <div className="n-wrapper flex justify-between items-center m-5 mx-10 text-white ">
-    <div className="n-left flex items-center ">
-    <Moon size="50" color="#ffffff" />&nbsp;
-      <span> | Icekiwi </span>
-    </div>
+    <nav className="n-wrapper flex justify-between items-center   ">
+      <div className="n-left flex items-center ">
+        <span className='flex justify-between items-center '> <img alt='icekiwi' className='mx-2' src={Logo} width={32} height={32} /> Icekiwi </span>
+      </div>
 
-    <div className="n-right">
-      <ul className=' flex gap-4 px-3 '>
-        <li>About</li>
-        <li>Our services</li>
-        <li>Contact us</li>
-      </ul>
-    </div>
-   </div>
+      <div className="n-right">
+        <ul className=' flex gap-4 px-3 '>
+          <li>About</li>
+          <li>Our services</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 
