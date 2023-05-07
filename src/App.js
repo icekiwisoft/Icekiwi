@@ -12,7 +12,7 @@ function App() {
 
       <Hero />
       <About />
-      <h1 className='title' style={{ textAlign: 'center' }}> what's your need ?</h1>
+      <h1 className='title' style={{ textAlign: 'center' }}> Our Service</h1>
       <section className="book" style={{ backgroundImage: 'url(book.jpg)' }} >
         <div className='content'>
 
