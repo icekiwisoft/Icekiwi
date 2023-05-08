@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../images/logo.png'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -13,6 +14,7 @@ const Navbar = () => {
         <ul className=' flex gap-4 px-3 '>
           <li>About</li>
           <li>Our services</li>
+          <li ><Link to={"team"}>meet the team</Link></li>
           <li>Contact us</li>
         </ul>
       </div>
