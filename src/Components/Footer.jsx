@@ -6,26 +6,26 @@ const Footer = () => {
 
       <div className='mainlinks'>
         <div className='sociallinks'>
-          <a><FaInstagram /></a>
-          <a><FaFacebook /></a>
-          <a><FaTwitter /></a>
-          <a><FaGithub /></a>
-          <a><FaYoutube /></a>
+          <a href='#'><FaInstagram /></a>
+          <a href='#'><FaFacebook /></a>
+          <a href='#'><FaTwitter /></a>
+          <a href='#'><FaGithub /></a>
+          <a href='#'><FaYoutube /></a>
         </div>
         <div className='links'>
           <ul>
-            <li><a>follow us on github</a></li>
-            <li><a>follow on instagram</a></li>
-            <li><a>follow on facebook</a></li>
-            <li><a>follow on twitter</a></li>
+            <li><a href='#'>follow us on github</a></li>
+            <li><a href='#'>follow on instagram</a></li>
+            <li><a href='#'>follow on facebook</a></li>
+            <li><a href='#'>follow on twitter</a></li>
 
           </ul>
         </div>
         <div className='links'>
           <ul>
-            <li><a>make a donation</a></li>
-            <li><a>about us</a></li>
-            <li><a>contact us</a></li>
+            <li><a href='#'>make a donation</a></li>
+            <li><a href='#'>about us</a></li>
+            <li><a href='#'>contact us</a></li>
             <li><a href='#'>go on artfana</a></li>
             <li><a href='#'>go on erquicks</a></li>
             <li><a href='#'>download yankee</a></li>
