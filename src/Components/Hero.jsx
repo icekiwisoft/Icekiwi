@@ -1,16 +1,11 @@
 import React from 'react'
-import { motion } from "framer-motion";
 
-import { fadeIn } from "../utils/motion";
-import Github from '@iconscout/react-unicons/icons/uil-github'
-
-import Logo from '../images/logo.png'
 import vid from '../images/vsc.webm';
-import Back from '../images/back.png'
+
 import Navbar from './Navbar';
 
 
-const Hero = ({ index }) => {
+const Hero = () => {
   return (
 
     <header>

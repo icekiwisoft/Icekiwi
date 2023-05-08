@@ -1,5 +1,4 @@
 import React from 'react'
-import Moon from '@iconscout/react-unicons/icons/uil-brain'
 import Logo from '../images/logo.png'
 
 

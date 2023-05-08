@@ -2,10 +2,9 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Hero from './Components/Hero';
-import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import book from './images/book.jpg';
+
 function App() {
   return (
     <BrowserRouter>
