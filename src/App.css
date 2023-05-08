@@ -284,8 +284,8 @@ header button {
 header button::before {
   content: '';
   /* border-radius: 1000px; */
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
+  min-width: calc(200px + 12px);
+  min-height: calc(50px + 12px);
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0, 255, 203, .64);
   position: absolute;

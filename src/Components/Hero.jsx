@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import Tilt from "react-tilt";
+
 import { fadeIn } from "../utils/motion";
 import Github from '@iconscout/react-unicons/icons/uil-github'
 
