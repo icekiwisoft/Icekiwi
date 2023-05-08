@@ -11,14 +11,14 @@ const About = () => {
         </div>
         <img alt="ok" src={back} />
       </div>
-      <div className='activities' >
+      {/* <div className='activities' >
         <a href='#'>web development</a>
         <a href='#'>AI development</a>
         <a href='#'>Game development</a>
         <a href='#'>app development</a>
         <a href='#'>desktop development</a>
 
-      </div>
+      </div> */}
     </section >
 
   )
