@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai';
-import React from 'react'
+
 import Logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
     { name: 'Home', link: '/' },
   ];
 
-  let [open, setOpen ] = useState(false);
+  let [open, setOpen] = useState(false);
 
   return (
 
@@ -24,7 +24,7 @@ const Navbar = () => {
           <img alt='icekiwi' className='mx-2' src={Logo} width={32} height={32} /> Icekiwi
         </span>
 
-        <div onClick={() => setOpen(!nav)} className='cursor-pointer md:hidden block'>
+        <div className='cursor-pointer md:hidden block'>
           <AiOutlineMenu size={30} />
         </div>
       </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
           ))
         }
       </ul>
-     
+
     </nav >
 
 
