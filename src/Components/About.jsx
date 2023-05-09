@@ -5,7 +5,7 @@ const About = () => {
     <section className="about">
       <div className='content'>
         <div className='text'>
-          <span className="title font-bold">about us</span>
+          <span className="title font-bold">About us</span>
           <p>we offer our services and design software that will help you achieve any of your goals, our primary goal is to digitize everything.
             we work in each of the following areas</p>
         </div>

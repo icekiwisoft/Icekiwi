@@ -91,11 +91,7 @@ header button {
   /* border-radius: 100px; */
 }
 
-header {
-  height: 100vh;
-  padding: 30px 100px;
 
-}
 
 header::after {
   content: "";
@@ -187,19 +183,19 @@ header>video {
 }
 
 .title {
-  font-family: 'Courier New', Courier, monospace;
+  text-transform: capitalize;
   color: #242D49;
   font-size: 5rem;
   font-weight: 700;
-  filter: drop-shadow(0 0 10px #09ff98);
-  color: #00FFCB;
-  background: -webkit-linear-gradient(#07e98b, #04fc94);
+  /* filter: drop-shadow(0 0 10px #09ff98);
+  background: -webkit-linear-gradient(#07e98b, #04fc94); */
+  color: #04fc94;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .about {
-  text-align: center;
+  /* text-align: center; */
 
 }
 

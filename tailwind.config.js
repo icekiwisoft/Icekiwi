@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '5px': '5px',
+        'body': '100px',
+      },
+      transitionDuration: {
+        '2000': '2000ms',
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -14,6 +22,7 @@ module.exports = {
       'metal': '#565584',
       'tahiti': '#3ab7bf',
       'yellow': '#eab308',
+      'blue1': '#4FD1C5',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
     },
