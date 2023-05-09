@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai';
-import Moon from '@iconscout/react-unicons/icons/uil-brain'
+import React from 'react'
 import Logo from '../images/logo.png'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
   let Links = [
-    { name: 'About', link: '/' },
-    { name: 'Our services', link: '/' },
-    { name: 'Contact us', link: '/' },
-    { name: 'Developers', link: '/' },
+    { name: 'About', link: '/#about' },
+    { name: 'Our services', link: '/#servicies' },
+    { name: 'Contact us', link: '/#contact' },
+    { name: 'meet the team', link: '/team' },
     { name: 'Home', link: '/' },
   ];
 
@@ -36,13 +37,14 @@ const Navbar = () => {
         {
           Links.map((link) => (
             <li className='text-white hover:text-blue1 cursor-pointer duration-2000 my-6 md:my-0'>
-              <a href={link.link}>{link.name}</a>
+              <Link to={link.link}>{link.name}</Link>
             </li>
           ))
         }
       </ul>
-
+     
     </nav >
+
 
   )
 }

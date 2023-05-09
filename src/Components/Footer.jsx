@@ -1,4 +1,3 @@
-import UilGithub from '@iconscout/react-unicons/icons/uil-github'
 import React from 'react'
 import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaYoutube } from 'react-icons/fa'
 const Footer = () => {
@@ -26,8 +25,6 @@ const Footer = () => {
           <ul>
             <li><a>make a donation</a></li>
             <li><a>about us</a></li>
-            <li><a>contact us</a></li>
-            <li><a href='#'>go on artfana</a></li>
             <li><a href='#'>go on erquicks</a></li>
             <li><a href='#'>download yankee</a></li>
 
