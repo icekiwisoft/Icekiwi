@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai';
-
 import Logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 
