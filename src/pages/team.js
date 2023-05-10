@@ -14,24 +14,24 @@ export default function Team() {
     return (
         <div className="about">
             <Navbar />
-            <div class="col">
-                <h2 class="texte">Our Expert Team</h2>
+            <div className="col">
+                <h2 className="texte">Our Expert Team</h2>
             </div>
 
 
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
 
                     <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
+                        <div className="team-box">
+                            <div className="team-media">
                                 <img src={image1} alt="" />
                             </div>
                             <div class="team-info">
                                 <h3>Johnathan Doe</h3>
                                 <p>Cardiologist</p>
                                 
-                                <ul class="team-social">
+                                <ul className="team-social">
 							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
 							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
 							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
@@ -42,129 +42,7 @@ export default function Team() {
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="team-box">
-                            <div class="team-media">
-                                <img src={image1} alt="" />
-                            </div>
-                            <div class="team-info">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                
-                                <ul class="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
-							    </ul> 
-                            </div>
-                        </div>
-                    </div>
-
+  
 
                 </div>
             </div>
