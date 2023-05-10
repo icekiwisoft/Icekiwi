@@ -2,23 +2,26 @@ import React from 'react'
 import back from '../images/back2.png'
 const About = () => {
   return (
-    <section className="about">
-      <div className='content'>
+    <section className="flex justify-between items-center bg-white">
+      <div className='content flex'>
         <div className='text'>
-          <span className="title font-bold">About us</span>
-          <p>we offer our services and design software that will help you achieve any of your goals, our primary goal is to digitize everything.
-            we work in each of the following areas</p>
+          <p className='text-first'>Introduction</p>
+          <span className="text-second font-second  ">Overview</span>
+          <p className='text-text'>
+            we offer our services and design software that will help you achieve
+            any of your goals, our primary goal is to digitize everything.
+            we work in each of the following areas
+          </p>
+
+          <p className='flex text-text mt-8'>
+            <span className='' >Want to join our service ?</span>
+            <span className=' text-yellow  ' > &nbsp; Contact us</span>
+          </p>
         </div>
+
         <img alt="ok" src={back} />
       </div>
-      {/* <div className='activities' >
-        <a href='#'>web development</a>
-        <a href='#'>AI development</a>
-        <a href='#'>Game development</a>
-        <a href='#'>app development</a>
-        <a href='#'>desktop development</a>
 
-      </div> */}
     </section >
 
   )

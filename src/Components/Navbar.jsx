@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai';
-import React from 'react'
 import Logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 
@@ -18,15 +17,15 @@ const Navbar = () => {
 
   return (
 
-    <nav className="n-wrapper  md:flex md:justify-between md:items-center p-10  ">
+    <nav className="n-wrapper  md:flex md:justify-between md:items-center ">
       <div className="n-left flex items-center justify-between ">
         <span className='flex justify-between items-center cursor-pointer'>
           <img alt='icekiwi' className='mx-2' src={Logo} width={32} height={32} /> Icekiwi
         </span>
 
-        <div onClick={() => setOpen(!nav)} className='cursor-pointer md:hidden block'>
+        <span className='cursor-pointer md:hidden block'>
           <AiOutlineMenu size={30} />
-        </div>
+        </span>
       </div>
 
 

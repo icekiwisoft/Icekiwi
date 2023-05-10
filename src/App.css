@@ -194,16 +194,7 @@ header>video {
   /* -webkit-text-fill-color: transparent; */
 }
 
-.about {
-  /* text-align: center; */
 
-}
-
-.about .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 footer {
   background-color: #000000;
@@ -252,7 +243,7 @@ header button {
   background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
   border: none;
   /* border-radius: 1000px; */
-  box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+  /* box-shadow: 12px 12px 24px rgba(79, 209, 197, .64); */
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -283,7 +274,7 @@ header button::before {
   min-width: calc(200px + 12px);
   min-height: calc(50px + 12px);
   border: 6px solid #00FFCB;
-  box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+  /* box-shadow: 0 0 60px rgba(0, 255, 203, .64); */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -327,17 +318,17 @@ header button:focus::after {
 
 .cb {
   background: #eab308;
-  box-shadow: 12px 12px 24px #eab30a;
+  /* box-shadow: 12px 12px 24px #eab30a; */
 }
 
-.cb::after {
+/* .cb::after {
   border: 6px solid #eab303;
 }
 
 .cb::before {
   border: 6px solid #eab305;
   box-shadow: 0 0 60px #eab305;
-}
+} */
 
 @keyframes ring {
   0% {
