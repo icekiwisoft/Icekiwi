@@ -22,7 +22,6 @@ const Navbar = () => {
         <span className='flex justify-between items-center cursor-pointer'>
           <img alt='icekiwi' className='mx-2' src={Logo} width={32} height={32} /> Icekiwi
         </span>
-
         <span className='cursor-pointer md:hidden block'>
           <AiOutlineMenu size={30} />
         </span>
