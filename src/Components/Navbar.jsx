@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: 'Home', link: '/' },
   ];
 
-  let [open, setOpen ] = useState(false);
+  let [open, setOpen] = useState(false);
 
   return (
 
@@ -41,7 +41,7 @@ const Navbar = () => {
           ))
         }
       </ul>
-     
+
     </nav >
 
 
