@@ -1,5 +1,6 @@
 import React from 'react'
 import back from '../images/back2.png'
+import vid from '../images/vsc.webm';
 const About = () => {
   return (
     <section className="about">
@@ -9,7 +10,7 @@ const About = () => {
           <p className='font-light '>we offer our services and design software that will help you achieve any of your goals, our primary goal is to digitize everything.
             we work in each of the following areas</p>
         </div>
-        <img alt="ok" src={back} />
+        {/* <video src={vid} autoPlay muted loop /> */}
       </div>
       <div class="grid grid-cols-4 gap-5">
 

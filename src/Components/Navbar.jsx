@@ -35,7 +35,7 @@ const Navbar = () => {
        opacity-0 top-[-400px] transition-all ease-in duration-500 '>
         {
           Links.map((link) => (
-            <li className='text-white hover:text-blue1 cursor-pointer duration-2000 my-6 md:my-0'>
+            <li className=' hover:text-blue1 cursor-pointer duration-2000 my-6 md:my-0'>
               <Link to={link.link}>{link.name}</Link>
             </li>
           ))

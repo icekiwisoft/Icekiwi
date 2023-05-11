@@ -27,7 +27,7 @@
 
 
 section {
-  min-height: 100vh;
+  height: 100vh;
   background: black;
   padding: 10px;
 
@@ -42,19 +42,19 @@ section {
 
 .book .text {
   width: 500px;
+  padding: 100px 0;
 }
 
 .book {
   background-size: cover;
+  clip-path: polygon(0 100px, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  top: 101px;
 }
 
 section .content {
   padding: 20px 0;
 }
 
-nav {
-  color: white;
-}
 
 body {
   margin: 0;
@@ -66,6 +66,10 @@ body {
   padding: 75px 0;
   display: flex;
 
+}
+
+header {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 }
 
 .buttons {
@@ -91,12 +95,11 @@ header button {
 /* CSS */
 header button {
   align-items: center;
-  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  background-color: #19ddd3;
   border: 0;
-  border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #000000;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
@@ -119,14 +122,7 @@ header button:hover {
   outline: 0;
 }
 
-button span {
-  background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
-  border-radius: 6px;
-  width: 100%;
-  height: 100%;
-  transition: 300ms;
-}
+
 
 button:hover span {
   background: none;
@@ -153,7 +149,7 @@ header::after {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #03a0cf;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(215, 215, 215, 1));
   top: 0;
   left: 0;
 }
@@ -173,7 +169,7 @@ header .video-container {
 
 .headertext {
   font-size: 3rem;
-  color: white;
+  color: #010a1d;
 }
 
 .part2 {
@@ -185,10 +181,7 @@ header .video-container {
   box-sizing: border-box;
 }
 
-.about {
-  padding: 0 50px;
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(215, 215, 215, 1))
-}
+
 
 
 .content .text {
@@ -222,7 +215,6 @@ header .video-container {
 
 ::-webkit-scrollbar-thumb {
   background: #888;
-  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -238,10 +230,7 @@ header .video-container {
   /* -webkit-text-fill-color: transparent; */
 }
 
-.about {
-  /* text-align: center; */
 
-}
 
 .about .content {
   display: flex;
@@ -256,12 +245,14 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
 
 .mainlinks {
   display: flex;
   justify-content: space-between;
+  padding: 100px 0;
 
 
 }
@@ -302,12 +293,12 @@ footer {
 
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 50px;
+  background: #fff;
+  height: 80vh !important;
 
-
-
-
-
-
-.cb {
-  background: #19dd33;
 }
