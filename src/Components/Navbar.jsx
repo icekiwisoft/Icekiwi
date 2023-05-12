@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
 
-    <nav className="n-wrapper  md:flex md:justify-between md:items-center py-5 ">
+    <nav className="n-wrapper  md:flex md:justify-between md:items-center ">
       <div className="n-left flex items-center justify-between ">
         <span className='flex justify-between items-center cursor-pointer'>
           <img alt='icekiwi' src={Logo} className='mr-5' width={32} height={32} /> Icekiwi
