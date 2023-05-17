@@ -9,12 +9,12 @@ const Footer = () => {
           <a><FaInstagram /></a>
           <a><FaFacebook /></a>
           <a><FaTwitter /></a>
-          <a><FaGithub /></a>
+          <a href='https://github.com/icekiwisoft'><FaGithub /></a>
           <a><FaYoutube /></a>
         </div>
         <div className='links'>
           <ul>
-            <li><a>follow us on github</a></li>
+            <li><a href='https://github.com/icekiwisoft'>follow us on github</a></li>
             <li><a>follow on instagram</a></li>
             <li><a>follow on facebook</a></li>
             <li><a>follow on twitter</a></li>

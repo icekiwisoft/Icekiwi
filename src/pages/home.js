@@ -7,15 +7,15 @@ export default function Home() {
         <>
             <Hero />
             <About />
-            <h1 className='title' style={{ textAlign: 'center' }}> Our Service</h1>
-            <section className="book" style={{ backgroundImage: 'url(book.jpg)' }} >
+            <section className="book px-5" style={{ backgroundImage: 'url(book5.jpg)' }} >
+
                 <div className='content'>
 
                     <div className='text'>
-                        <span className="title font-bold">
+                        <span className="text-5xl font-bold text-blue">
                             literary service</span>
 
-                        <p>
+                        <p className="text-black text-xl">
                             we offer content editing and translation services for translation services, you will send the text to our mailbox after we will send you an invoice and the translation time after payment and we will send you the translated document in time, 0.02$ min per word
                         </p>
                     </div>
