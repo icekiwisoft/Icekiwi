@@ -24,9 +24,11 @@ module.exports = {
       'metal': '#565584',
       'tahiti': '#3ab7bf',
       'yellow': '#eab308',
-      'blue1': '#4FD1C5',
+      'blue': '#4FD1C5',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      'green': " #19dd33",
+      'gray': "#ddd"
     },
     fontWeight: {
 
@@ -44,7 +46,7 @@ module.exports = {
     fontSize: {
       sm: '0.8rem',
       base: '1rem',
-      xl: '1.25rem',
+      'xl': '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.953rem',
       '4xl': '2.441rem',
