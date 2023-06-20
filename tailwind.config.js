@@ -13,6 +13,15 @@ module.exports = {
         '2000': '2000ms',
       }
     },
+
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      normal: '0',
+      wider: '.05em',
+      widest: '.25em',
+    },
+
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -30,9 +39,9 @@ module.exports = {
       'green': " #19dd33",
       'gray': "#ddd"
     },
-    fontWeight: {
 
-      hairline: '100',
+    fontWeight: {
+      thin: '100',
       extralight: '200',
       light: '300',
       normal: '400',
@@ -41,8 +50,9 @@ module.exports = {
       bold: '700',
       'extra-bold': '800',
       black: '900',
-      'second': '900',
+      second: '900',
     },
+
     fontSize: {
       sm: '0.8rem',
       base: '1rem',
@@ -51,10 +61,9 @@ module.exports = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      '6xl': '40rem',
+      'part': '13px',
       'first': '18px',
       'second': '60px',
-      'text': '17px',
     },
   },
   plugins: [],
