@@ -32,11 +32,11 @@ export default function Team() {
                                 <p>Cardiologist</p>
                                 
                                 <ul className="team-social">
-							        <li> <a href=""><FontAwesomeIcon icon={faInstagram} /></a>  </li>
-							        <li> <a href=""> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faGithub} /></a>  </li>
-							        <li> <a href=""><FontAwesomeIcon icon={faYoutube} /></a>  </li>
+							        <li> <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>  </li>
+							        <li> <a href="#"> <FontAwesomeIcon icon={faFacebook} /> </a>  </li>
+							        <li> <a href="#"><FontAwesomeIcon icon={faTwitter} /> </a>  </li>
+							        <li> <a href="#"><FontAwesomeIcon icon={faGithub} /></a>  </li>
+							        <li> <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>  </li>
 							    </ul> 
                             </div>
                         </div>

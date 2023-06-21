@@ -1,6 +1,5 @@
 import React from 'react'
-import back from '../images/back2.png'
-import vid from '../images/vsc.webm';
+
 const About = () => {
   return (
     <section className="about">
@@ -39,20 +38,8 @@ const About = () => {
           <p class="font-light text-base text-gray-700">system security</p>
         </div>
 
-
-
-
-
-
       </div>
-      {/* <div className='activities' >
-        <a href='#'>web development</a>
-        <a href='#'>AI development</a>
-        <a href='#'>Game development</a>
-        <a href='#'>app development</a>
-        <a href='#'>desktop development</a>
 
-      </div> */}
     </section >
 
   )
