@@ -31,11 +31,14 @@ const Contact = () => {
         <div className="contac-form">
             <div className="w-left">
                 <div className="awasome">
-                    <h2 className=' mb-10 text-[#66a6ff] ' >Get in touch </h2>
-                    <h1 className=' font-medium text-5xl tracking-tighter leading-none mb-10 ' >
-                        Any Request ? Contact Us!
-                    </h1>
-                    <p className='font-light text-part text-[#1e1e61] mb-10 '>
+                    <h2 className=' mb-6 font-semibold text-[#27589e] capitalize ' >Get in touch </h2>
+                    <span className=' font-semibold text-5xl tracking-tighter leading-none mb-10 ' >
+                        Any request ?&nbsp;
+                    </span>
+                    <span className='text-[#27589e] font-semibold text-5xl tracking-tighter leading-none mb-10 ' >
+                        Contact us!
+                    </span>
+                    <p className='font-light text-part text-[#1e1e61] mb-10 mt-10 '>
                         Don't hesitate to call us! If you
                         want to build your career in the
                         tech and other domains? Study with
@@ -51,8 +54,8 @@ const Contact = () => {
             </div>
 
             <div className="c-right">
-                <span className='text-[2rem] font-medium  '>Contact Us!</span>
-                <form ref={form} onSubmit={sendEmail}>
+                <span className='text-[2rem] text-[#27589e] font-semibold pb-6  '>Contact Us!</span>
+                <form className='mt-4' ref={form} onSubmit={sendEmail}>
                     <input type="text" name='user_name' className='user' placeholder='Name' />
                     <input type="email" name='user_email' className='user' placeholder='Email' required />
                     <textarea name="message" placeholder="Message" className="user" required />

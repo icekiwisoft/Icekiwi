@@ -42,7 +42,7 @@ nav {
   left: 0;
   padding: 0 100px;
 
-  height: 75px;
+  height: 10vh;
   box-shadow: 0 0 10px 2px #ccc;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -261,26 +261,6 @@ header .video-container {
   font-size: 3rem;
   font-weight: 500;
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
-}
-
-
-
-.about .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-footer {
-  background-color: #000;
-  height: 80vh;
-  padding: 50px 100px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
 
 .mainlinks {
@@ -375,17 +355,6 @@ header button:focus::after {
     height: 300px;
     opacity: 0;
   }
-
-
-  
+ 
 }
-
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 100px 50px;
-    background: #fff;
-    height: 80vh !important;
-  }
 
