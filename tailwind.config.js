@@ -25,8 +25,13 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      primary: "#050816",
+      secondary: "#aaa6c3",
+      tertiary: "#151030",
+      "black-100": "#100d25",
+      "black-200": "#090325",
+      "white-100": "#f3f3f3",
       'white': '#ffffff',
-      'first': '#1e293b',
       'second': '#18181b',
       'purple': '#3f3cbb',
       'midnight': '#121063',
@@ -61,10 +66,14 @@ module.exports = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      'part': '13px',
+      'part': '18px',
       'first': '18px',
       'second': '60px',
     },
+    boxShadow: {
+      card: "0px 35px 120px -15px #211e35",
+    },
+    
   },
   plugins: [],
 }
