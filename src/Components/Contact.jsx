@@ -1,5 +1,6 @@
 import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaYoutube } from 'react-icons/fa'
 import React, { useState, useRef } from 'react';
+import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import './Component.css';
 
@@ -54,11 +55,34 @@ const Contact = () => {
             </div>
 
             <div className="c-right">
-                <span className='text-[2rem] text-[#27589e] font-semibold pb-6  '>Contact Us!</span>
+                <motion.span
+                    initial={{ y: -100000 }}
+                    animate={{ y: 0 }}
+                    transition={{ duratio: 4 }}
+
+                    className='text-[2rem] text-[#27589e] font-semibold pb-6  '>Contact Us!
+
+                </motion.span>
+
                 <form className='mt-4' ref={form} onSubmit={sendEmail}>
-                    <input type="text" name='user_name' className='user' placeholder='Name' />
-                    <input type="email" name='user_email' className='user' placeholder='Email' required />
-                    <textarea name="message" placeholder="Message" className="user" required />
+                    <motion.input
+                        initial={{ x: 200 }}
+                        animate={{ x: 0 }}
+                        transition={{ duratio: 4, ease: "easeInOut"  }}
+
+                        type="text" name='user_name' className='user' placeholder='Name' />
+                    <motion.input
+                        initial={{ x: 4000 }}
+                        animate={{ x: 0 }}
+                        transition={{ duratio: 6 }}
+
+                        type="email" name='user_email' className='user' placeholder='Email' required />
+                    <motion.textarea
+                        initial={{ x: 6000 }}
+                        animate={{ x: 0 }}
+                        transition={{ duratio: 8 }}
+
+                        name="message" placeholder="Message" className="user" required />
 
                     <button className='button' type='submit' >
                         <div class="svg-wrapper-1">
