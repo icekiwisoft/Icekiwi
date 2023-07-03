@@ -9,33 +9,22 @@ const Hero = () => {
   return (
     <>
       <Navbar />
-      <header className='min-h-screen md:px-body md:pt-8 '>
 
+      <header className=' flex justify-center  min-h-screen min-w-screen md:pt-8 '>
+        <div className=' flex justify-center items-center flex-col  px-[150px] ' >
+          <h1 className=' text-[#ffffff] font-second text-[3.5rem] text-center '>
+            Run over our services and grate proposal for clients
+          </h1>
+          <p className='text-[#d1c8c8]' >
+            Icekiwi is an elite programming enterprise
+            bringing digital fantasies to life
+          </p>
+          <p className='font-bold text-[#d1c8c8] ' >
+           - We're revolutionizing the tech industry.
+          </p>
 
-
-        <div className='header-content'>
-
-          <div className=' part2 text-black '>
-            <h5 className=' pb-4' >Custom services</h5>
-            <h1 className='headertext font-black text-6xl pb-4'> Run over our servicis and greate proposal for clients </h1>
-            <h5 className=''>Ask what you want and we will deliver it in time</h5>
-            <div className='buttons '>
-              <button href='' className=' ' >  Contact us </button>
-              <button href='' className='cb'  >Donate</button>
-            </div>
-
-          </div>
-
-          <div className='video-container'>
-            <img alt="ok" src={back} />
-          </div>
 
         </div>
-
-
-
-
-
       </header>
 
     </>
