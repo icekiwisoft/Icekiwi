@@ -1,7 +1,6 @@
 import React from 'react'
-
-
-import back from '../images/back2.png'
+import './Component.css'
+import {FaGithub } from 'react-icons/fa'
 import Navbar from './Navbar';
 
 
@@ -20,11 +19,21 @@ const Hero = () => {
             bringing digital fantasies to life
           </p>
           <p className='font-bold text-[#d1c8c8] ' >
-           - We're revolutionizing the tech industry.
+            - We're revolutionizing the tech industry.
           </p>
 
+          <div className=' flex gap-5 pt-[4rem] '>
+            <button className='herobutton' >
+              <span>Contact us</span>
+            </button>
+
+            <button className='herobutton flex justify-center items-center gap-3 ' >
+              <FaGithub /><span className=' flex ' >  Follow us</span>
+            </button>
+          </div>
 
         </div>
+
       </header>
 
     </>
