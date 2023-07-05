@@ -12,6 +12,7 @@ const styles = {
       "text-[#000000] font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-[#00000] uppercase tracking-wider",
+    CardShadow: "shadow-[0px_0px_16px_5px_#00000024]"
   };
   
   export { styles };

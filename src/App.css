@@ -1,9 +1,3 @@
-@font-face {
-  font-family: Gumela;
-  src: url('../src/fonts/Gumela\ Regular.otf');
-}
-
-
 :root {
 
   --yellow: #F5C32C;
@@ -20,13 +14,17 @@
 
 
 * {
-  /* font-family: 'Gumela'; */
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
 }
 
+body {
+  margin: 0;
+  font-size: 20px;
+  user-select: none;
+}
 
 section {
   height: 100vh;
@@ -37,17 +35,13 @@ section {
 
 nav {
   position: fixed;
-  background-color: #ffffffa4;
+  background-color: #ffffff;
   top: 0;
   left: 0;
   padding: 0 100px;
-
   height: 10vh;
-  box-shadow: 0 0 10px 2px #ccc;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-
-  z-index: 10000;
+  box-shadow: 0 0 5px 1px #ccc;
+  z-index: 100;
   width: 100%;
   font-size: 1rem;
 }
@@ -58,28 +52,9 @@ nav {
   gap: 10px;
 }
 
-.book .text {
-  width: 500px;
-  padding: 100px 0;
-}
-
-.book {
-  background-size: cover;
-  clip-path: polygon(0 100px, 100% 0, 100% 100%, 0 calc(100% - 100px));
-  top: 101px;
-}
-
 section .content {
   padding: 20px 0;
 }
-
-
-body {
-  margin: 0;
-  font-size: 20px;
-  user-select: none;
-}
-
 
 header {
   background-image: url(" images/world.svg ");

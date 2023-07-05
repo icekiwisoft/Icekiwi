@@ -65,22 +65,13 @@ const Contact = () => {
                 </motion.span>
 
                 <form className='mt-4' ref={form} onSubmit={sendEmail}>
-                    <motion.input
-                        initial={{ x: 200 }}
-                        animate={{ x: 0 }}
-                        transition={{ duratio: 4, ease: "easeInOut"  }}
+                    <input
 
                         type="text" name='user_name' className='user' placeholder='Name' />
-                    <motion.input
-                        initial={{ x: 4000 }}
-                        animate={{ x: 0 }}
-                        transition={{ duratio: 6 }}
+                    <input
 
                         type="email" name='user_email' className='user' placeholder='Email' required />
-                    <motion.textarea
-                        initial={{ x: 6000 }}
-                        animate={{ x: 0 }}
-                        transition={{ duratio: 8 }}
+                    <textarea
 
                         name="message" placeholder="Message" className="user" required />
 
