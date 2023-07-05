@@ -47,7 +47,7 @@ textarea {
     transform: skew(-21deg);
   }
   
- .herobutton>span {
+ .herobutton>* {
     display: inline-block;
     transform: skew(21deg);
   }

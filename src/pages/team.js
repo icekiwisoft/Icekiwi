@@ -2,9 +2,6 @@ import './team.scss'
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import image1 from "../images/1.jpg";
-import image2 from "../images/2.jpg";
-import image3 from "../images/3.jpg";
-import image4 from "../images/4.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
