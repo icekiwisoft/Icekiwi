@@ -2,8 +2,8 @@ import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaYoutube } from 'react-i
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import './Component.css';
 
+import './Component.scss'
 
 
 const Contact = () => {
@@ -29,32 +29,42 @@ const Contact = () => {
 
 
     return (
-        <div className="contac-form">
+        <div className="contac-form flex  justify-center">
             <div className="w-left">
                 <div className="awasome">
                     <h2 className=' mb-6 font-semibold text-[#27589e] capitalize ' >Get in touch </h2>
-                    <span className=' font-semibold text-5xl tracking-tighter leading-none mb-10 ' >
+                    <span className=' font-semibold text-5xl tracking-tighter text-white leading-none mb-10 ' >
                         Any request ?&nbsp;
                     </span>
                     <span className='text-[#27589e] font-semibold text-5xl tracking-tighter leading-none mb-10 ' >
                         Contact us!
                     </span>
-                    <p className='font-light text-part text-[#1e1e61] mb-10 mt-10 '>
+                    <p className='font-light text-part text-[#fff] mb-10 mt-10 '>
                         Don't hesitate to call us! If you
                         want to build your career in the
                         tech and other domains? Study with
                         premium courses and materials at IceKiwi.
                     </p>
-                    <div className='sociallinks cslinks ' >
-                        <a className='link-1' ><FaInstagram /></a>
-                        <a className='link-2' ><FaFacebook /></a>
-                        <a className='link-3' ><FaTwitter /></a>
-                        <a className='link-4' href='https://github.com/icekiwisoft'><FaGithub /></a>
-                    </div>
+
+                    <button className='herobutton flex justify-center items-center gap-3 '>
+                        Contact us
+                    </button>
+
                 </div>
             </div>
 
-            <div className="c-right">
+
+
+        </div>
+    )
+}
+
+export default Contact
+
+
+
+
+/* <div className="c-right">
                 <motion.span
                     initial={{ y: -100000 }}
                     animate={{ y: 0 }}
@@ -88,11 +98,4 @@ const Contact = () => {
                     </button>
                     <span>{done && "Your request was send successfully!"}</span>
                 </form>
-            </div>
-
-
-        </div>
-    )
-}
-
-export default Contact
+            </div> */
