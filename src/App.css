@@ -30,20 +30,6 @@ section {
   height: 100vh;
   background: black;
   padding: 10px;
-
-}
-
-nav {
-  position: fixed;
-  background-color: #ffffff;
-  top: 0;
-  left: 0;
-  padding: 0 100px;
-  height: 10vh;
-  box-shadow: 0 0 5px 1px #ccc;
-  z-index: 100;
-  width: 100%;
-  font-size: 1rem;
 }
 
 
@@ -56,12 +42,7 @@ section .content {
   padding: 20px 0;
 }
 
-header {
-  background-image: url(" images/world.svg ");
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover
-  }
+
 
 
 
@@ -85,4 +66,3 @@ header {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
