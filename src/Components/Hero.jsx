@@ -7,24 +7,48 @@ import Navbar from './Navbar';
 
 
 import logo from '../assets/logo1.png'
+
+import brand from '../assets/brand.png'
 const Hero = () => {
   return (
     <>
 
 
-      <header className=' flex justify-center  min-h-screen min-w-screen md:p-8 '>
+      <header className='justify-center  h-screen min-h-screen min-w-screen  '>
 
-        <div className=' flex justify-center items-center flex-col  px-[150px] ' >
-          <h1 className=' text-[#ffffff] font-second text-[3.5rem] text-center '>
+
+
+        {/* <div className='navbar'>
+          <nav>
+            <div className='menu'>
+              <a href='#'>home</a>
+              <div className='submenu'>
+
+              </div>
+            </div>
+            <div className='menu'>
+              <a href='#'>store</a>
+              <div className='submenu'>
+              </div>
+            </div>
+
+          </nav>
+
+          <input placeholder='rechercher quelque chose sur icekiwi' />
+        </div> */}
+        <div className=' flex justify-center h-full items-center flex-col  px-[150px]  pb-[150px]' style={{ zIndex: 0, position: "relative" }} >
+          <h1 className=' text-[#222] font-second text-[3.5rem] font-black header-text text-center '>
             Run over our services and grate proposal for everyone
           </h1>
-          <p className='text-[#d1c8c8] my-3 ' >
+          <p className='text-[#111] my-3 ' >
             Icekiwi is an elite programming enterprise
             bringing digital fantasies to life
           </p>
-          <p className='font-bold text-[#d1c8c8] ' >
+          <p className='font-bold text-[#222] ' >
             - We're revolutionizing the tech industry.
           </p>
+
+
 
           <div className=' flex gap-5 pt-[4rem] '>
             <button className='herobutton' >
@@ -37,6 +61,8 @@ const Hero = () => {
           </div>
 
         </div>
+
+
 
       </header>
 

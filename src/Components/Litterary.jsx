@@ -17,8 +17,8 @@ const Litterary = () => {
 
                 <div className='w-full'>
                     <div >
-                        <p className='sm:text-[18px] text-[14px] text-[#27589e] font-semibold uppercase tracking-wider'>About Us</p>
-                        <h2 className='text-[#000000] font-black md:text-[40px] sm:text-[50px] xs:text-[40px] text-[30px]'>We follow you.</h2>
+                        <p className='sm:text-[18px] text-[14px] text-[#148dff] font-light tracking-wider'>litterary</p>
+                        <h2 className='text-[#000000] font-black md:text-[1.6rem] font-semibold sm:text-[1.6rem] xs:text-[1.5rem] text-[1.4rem]'>Litterary servicies.</h2>
                     </div>
 
                     <p className='mt-3 text-part text-justify text-[#0e0e29] font-light max-w-[30rem] leading-[30px]'>
@@ -30,7 +30,7 @@ const Litterary = () => {
                         solutions that solve real-world problems.
                     </p>
                 </div>
-                <button className='herobutton btn mt-8 '>
+                <button className=' bg-primary text-white button mt-8 '>
                     view the team
                 </button>
             </div>

@@ -32,21 +32,21 @@ const Contact = () => {
         <div className="contac-form flex  justify-center">
             <div className="w-left">
                 <div className="awasome">
-                    <h2 className=' mb-6 font-semibold text-[#27589e] capitalize ' >Get in touch </h2>
-                    <span className=' font-semibold text-5xl tracking-tighter text-white leading-none mb-10 ' >
+                    <h2 className=' mb-6 font-light text-[#148dff] capitalize ' >Get in touch </h2>
+                    <span className=' text-[#000000]  md:text-[1.6rem] font-semibold sm:text-[1.6rem] xs:text-[1.5rem] text-[1.4rem] leading-none mb-10 ' >
                         Any request ?&nbsp;
                     </span>
-                    <span className='text-[#27589e] font-semibold text-5xl tracking-tighter leading-none mb-10 ' >
+                    <span className='text-[#F5C32C] text-[#000000]  md:text-[1.6rem] font-semibold sm:text-[1.6rem] xs:text-[1.5rem] text-[1.4rem] tracking-tighter leading-none mb-10 ' >
                         Contact us!
                     </span>
-                    <p className='font-light text-part text-[#fff] mb-10 mt-10 '>
+                    <p className='font-light text-part text-[#050505] mb-10 mt-10 '>
                         Don't hesitate to call us! If you
                         want to build your career in the
                         tech and other domains? Study with
                         premium courses and materials at IceKiwi.
                     </p>
 
-                    <button className='herobutton flex justify-center items-center gap-3 '>
+                    <button className='button bg-primary text-center text-white  '>
                         Contact us
                     </button>
 

@@ -10,8 +10,8 @@ const About = () => {
 
         <div className='w-full'>
           <div >
-            <p className='sm:text-[18px] text-[14px] text-[#27589e] font-semibold uppercase tracking-wider'>About Us</p>
-            <h2 className='text-[#000000] font-black md:text-[40px] sm:text-[50px] xs:text-[40px] text-[30px]'>We follow you.</h2>
+            <p className='sm:text-[18px] text-[14px] text-[#148dff] font-light uppercase tracking-wider'>About Us</p>
+            <h2 className='text-[#000000]  md:text-[1.6rem] font-semibold sm:text-[1.6rem] xs:text-[1.5rem] text-[1.4rem]'>We follow you.</h2>
           </div>
 
           <p className='mt-3 text-part text-justify text-[#0e0e29] font-light max-w-[30rem] leading-[30px]'>
@@ -23,16 +23,24 @@ const About = () => {
             solutions that solve real-world problems.
           </p>
         </div>
-        <button className='button mt-8 '>
-          view the team
-        </button>
+
+        <div className='flex'>
+          <button className='button bg-primary text-white mt-8 '>
+            view the team
+          </button>
+
+          <button className='bg-tertiary button text-white ml-2   mt-8 '>
+            our app
+          </button>
+        </div>
+
       </div>
 
 
 
-      <div className=' flex flex-wrap gap-7' >
+      <div className=' flex flex-wrap gap-7 rounded-2xl card ' >
 
-        <div className='bg-tertiary p-3 rounded-2xl sm:w-[600px] w-full'>
+        <div className='bg-[#fff] p-3  sm:w-[500px] w-full rounded-2xl'>
           <div className='relative w-full h-[200px]'>
             <img
               src={jobit}
@@ -42,8 +50,8 @@ const About = () => {
           </div>
 
           <div className='mt-5'>
-            <h3 className='text-white font-bold text-[24px]'>Job IT</h3>
-            <p className='mt-2 text-secondary text-[14px]'>
+            <h3 className='font-bold text-[24px] text-[#222]'>Job IT</h3>
+            <p className='mt-2 text-[#111] text-[14px]'>
               Web-based platform that allows
               users to search, book, and manage
               car rentals from various providers,
