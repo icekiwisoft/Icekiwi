@@ -1,0 +1,38 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  // background-color: #eeeafeb1;
+  // -webkit-backdrop-filter:blur(2);
+  // backdrop-filter: blur(2);
+  // position: -webkit-sticky;
+  // position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  -webkit-user-select: none;
+  user-select: none;
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    li a {
+      color: var(--grey100);
+      font-weight: 400;
+      font-size: small;
+    }
+  }
+  #nav-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    span {
+      color: var(--blue);
+    }
+  }
+}

@@ -1,68 +1,40 @@
-:root {
-
-  --yellow: #F5C32C;
-  --orange: #FCA61F;
-  --black: #242D49;
-  --blue: #2b5ca5;
-  --gray: #788097;
-  --blueCard: #DDF8FE;
-  --purple: #a034de;
-  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
-  --orangeCard: rgba(252, 166, 31, 0.45);
-  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 0;
+  font-family: 'Inter', sans-serif;
 }
 
-body {
-  margin: 0;
-  font-size: 20px;
-  user-select: none;
+:root{
+  --blue: #0066FF;
+  --gray100: #323232;
+  --gray200: #4F4F4F;
+  --green: #03D936; 
+  --pink100: #EEEAFE;
 }
 
-section {
-  height: 100vh;
-  background: black;
-  padding: 10px;
+.padding-body{padding: 0 10rem;}
+.mt{margin-top: 10rem;}
+.mb{margin-bottom: 10rem;}
+.mx{}
+.button{
+  background-color: var(--blue);
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  width: 150px;
+  border-radius: 5px;
+}
+.button:hover{
+  color: var(--blue);
+  cursor: pointer;
+  outline: 1.5px solid var(--blue);
+  background-color: #0066ff35;
 }
 
-
-.sociallinks {
+.flex{
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-section .content {
-  padding: 20px 0;
-}
-
-
-
-
-
-.logowrapper {
-  width: 100%;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
