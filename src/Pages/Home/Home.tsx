@@ -4,6 +4,16 @@ import './Home.scss'
 import Heroimg from '../../assets/Heroimg.png'
 import AboutImg from '../../assets/aboutimg.png'
 import Computer from '../../assets/Computer.png'
+import circles from '../../assets/circles.png'
+
+import css from '../../assets/tech/css.png'
+import reactjs from '../../assets/tech/reactjs.png'
+import mongodb from '../../assets/tech/mongodb.png'
+import git from '../../assets/tech/git.png'
+import figma from '../../assets/tech/figma.png'
+import docker from '../../assets/tech/docker.png'
+import typescript from '../../assets/tech/typescript.png'
+
 
 const Home = () => {
   return (
@@ -60,26 +70,66 @@ const Home = () => {
 
       </div>
 
-    {/* experience time span card */}
+      {/* circles */}
+
+      <div className='circle'>
+        <h1>technologies utilisé</h1>
+        <h2>les outilles et plateforme de <br /><span>pointe</span>  utilisé</h2>
+        <p>À travers l'utilisation de technologies de pointe et de CMS, nous nous engageons à élaborer <br /> des produits fiables et sécurisés pour vous.</p>
+        <img src={circles} alt="" />
+        <div className='circle-techs'>
+          <img src={git} alt="" />
+          <img src={figma} alt="" />
+          <img src={docker} alt="" />
+          <img src={mongodb} alt="" />
+          <img src={reactjs} alt="" />
+          <img src={typescript} alt="" />
+        </div>
+      </div>
+
+      {/* experience time span card */}
 
       <div className='experience'>
         <div className='experience-card'>
-          <div className='experience-card-info'>
-            <p className='eperience-number'>10</p>
-            <span className='experience-text'>Annee d’experiance</span>
+          <div>
+            <div >10</div>
+            <span>Annee d’experiance</span>
           </div>
-          <div className='experience-card-info'>
-            <p className='eperience-number'>20</p>
-            <span className='experience-text'>Clients Satisfait</span>
+          <div>
+            <div >20</div>
+            <span>Clients Satisfait</span>
           </div>
-          <div className='experience-card-info'>
-            <p className='eperience-number'>3</p>
-            <span className='experience-text'>Membres actif</span>
+          <div>
+            <div >3</div>
+            <span>Membres actif</span>
           </div>
-          <div className='experience-card-info'>
-            <p className='eperience-number'>4</p>
-            <span className='experience-text'>Projets Realisé</span>
+          <div>
+            <div >4</div>
+            <span>Projets Realisé</span>
           </div>
+        </div>
+      </div>
+
+      {/* Pourquoi nous choisir */}
+
+      <div className='cards-section'>
+        <h1>Pourquoi Nous Choisir</h1>
+        <div className='cards'>
+          <div>
+            <span>Livraison Dans Les Délais</span>
+            <p>La gestion du temps est notre priorité.
+              Nous veillons à toujours respecter les délais et nous tenons tous nos clients informés de chaque étape de leur projet.</p>
+          </div>
+          <div>
+            <span>Travaille de qualaité</span>
+            <p>Nous vouz poroposons diverces services selon votre besoin.
+              Nous creeons des applications et des sites sur mezure et resonsif addapté a vos besoins en un temps record.</p>
+          </div>
+          <div>
+            <span>Hautement sécurisé</span>
+            <p>Viaziza assure en priorité la confidentialité, l’intégrité et la disponibilité des applications à chaque étape du processus de développement du logiciel. La sécurité est notre priorité absolue.</p>
+          </div>
+
         </div>
       </div>
 

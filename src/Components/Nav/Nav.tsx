@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nav.scss'
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/Logo.svg'
 import Language from '../../assets/Language.png'
 import { NavLink } from 'react-router-dom'
 import Dropdown from '../../assets/Dropdown.png'
@@ -9,7 +9,7 @@ const Nav = ()=> {
   return (
     <>
       <div className='padding-body' id='nav'>
-        <img src={Logo} alt="" />
+        <img className='logo' src={Logo} alt="" />
         <ul className='nav-links'>
             <li><NavLink to="#">Accueil</NavLink> </li>
             <li><NavLink to="#">A propos</NavLink></li>
