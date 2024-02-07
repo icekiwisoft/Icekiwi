@@ -319,4 +319,13 @@
  footer{
     position: static;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span{
+        font-size: 10rem;
+        font-weight: bolder;
+    }
  }
