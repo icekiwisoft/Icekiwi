@@ -116,22 +116,27 @@ const Home = () => {
         <h1>Pourquoi Nous Choisir</h1>
         <div className='cards'>
           <div>
-            <span>Livraison Dans Les Délais</span>
+            <span><i className="fa-solid fa-clock-rotate-left"> </i>&nbsp;Livraison Dans Les Délais</span>
             <p>La gestion du temps est notre priorité.
               Nous veillons à toujours respecter les délais et nous tenons tous nos clients informés de chaque étape de leur projet.</p>
           </div>
           <div>
-            <span>Travaille de qualaité</span>
+            <span> <i className="fa-solid fa-briefcase"></i>&nbsp;Travaille de qualaité</span>
             <p>Nous vouz poroposons diverces services selon votre besoin.
               Nous creeons des applications et des sites sur mezure et resonsif addapté a vos besoins en un temps record.</p>
           </div>
           <div>
-            <span>Hautement sécurisé</span>
+            <span><i className="fa-solid fa-shield-halved"></i>&nbsp;Hautement sécurisé</span>
             <p>Viaziza assure en priorité la confidentialité, l’intégrité et la disponibilité des applications à chaque étape du processus de développement du logiciel. La sécurité est notre priorité absolue.</p>
           </div>
 
         </div>
       </div>
+
+      <footer>
+        <span>Icekiwi</span>
+        
+      </footer>
 
     </>
   )

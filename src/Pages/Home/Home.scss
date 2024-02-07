@@ -282,6 +282,10 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+        :hover {
+            cursor: pointer;
+        }
+
         div {
             display: flex;
             justify-content: center;
@@ -299,15 +303,29 @@
                 font-weight: 700;
             }
         }
+
         div:nth-child(2) {
             // -webkit-filter: invert(100%);
             // filter: invert(100%);
             background: var(--blue);
             color: white;
             min-height: calc(350px + 20px);
-            span{
+            span {
                 color: white;
             }
         }
     }
 }
+ footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span{
+        font-size: 10rem;
+        font-weight: bolder;
+    }
+ }
