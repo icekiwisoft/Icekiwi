@@ -134,8 +134,15 @@ const Home = () => {
       </div>
 
       <footer>
-        <span>Icekiwi</span>
-        
+        <h1>Icekiwi</h1>
+        <hr />
+        <ul>
+            <li>Instagram &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+            <li>Facebook &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+            <li>&copy; Icekiwi 2024</li>
+            <li>Mails news &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+            <li>Whatsapp &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+        </ul>
       </footer>
 
     </>

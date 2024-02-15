@@ -2,7 +2,11 @@
 
 * {
   font-family: 'Inter', sans-serif;
+
+  /* -webkit-filter: invert(100%);
+  filter: invert(100%); */
 }
+
 
 :root{
   --blue: #0066FF;
@@ -29,7 +33,7 @@
   color: var(--blue);
   cursor: pointer;
   outline: 1.5px solid var(--blue);
-  background-color: #0066ff35;
+  background-color: #0066ff00;
 }
 
 .flex{

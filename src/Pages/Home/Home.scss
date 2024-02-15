@@ -22,7 +22,7 @@
 
         .hero-left {
             display: flex;
-            align-items: start;
+            align-items: flex-start;
             flex-direction: column;
             gap: 6rem;
             h1 {
@@ -38,7 +38,7 @@
                 display: flex;
                 gap: 40px;
                 .left-button2 {
-                    background-color: #0066ff35;
+                    background-color: #0066ff00;
                     color: var(--blue);
                     outline: 1.5px solid var(--blue);
                     &:hover {
@@ -215,8 +215,8 @@
 
         img:nth-child(1) {
             position: relative;
-            top: 300px;
-            right: 280px;
+            top: 330px;
+            right: 360px;
             height: 100px;
             width: 100px;
             padding: 10px;
@@ -236,32 +236,42 @@
         img:nth-child(3) {
             position: relative;
             top: 62px;
-            right: 80px;
+            right: 192px;
             height: 100px;
             width: 100px;
             padding: 10px;
-            background-color: #1a5a8e;
+            background-color: #01579b;
             border-radius: 50%;
         }
         img:nth-child(4) {
             position: relative;
             bottom: 175px;
             right: 249px;
-            height: 100px;
-            width: 100px;
+            height: 120px;
+            width: 120px;
             padding: 10px;
             background-color: #1a8e29;
             border-radius: 50%;
         }
         img:nth-child(5) {
             position: relative;
-            bottom: 175px;
+            bottom: 10px;
             right: 249px;
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            background-color: #8e1a63;
+            border-radius: 50%;
         }
         img:nth-child(6) {
             position: absolute;
-            bottom: 175px;
-            right: 249px;
+            top: 200px;
+            left: 220px;
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            background-color: #1976d2;
+            border-radius: 50%;
         }
     }
 }
@@ -316,7 +326,7 @@
         }
     }
 }
- footer{
+footer {
     position: static;
     bottom: 0;
     width: 100%;
@@ -324,8 +334,55 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    span{
-        font-size: 10rem;
-        font-weight: bolder;
+    h1 {
+        font-size: 12rem;
+        font-weight: 900;
+        line-height: normal;
+        //font-family: "Honk", system-ui;
+        //font-family: 'Rubik Glitch Pop', system-ui;
     }
- }
+    hr {
+        width: 70%;
+        border: none; /* Remove default border */
+        height: 1px; /* Set the height */
+        background: rgba(0, 0, 0, 0.225); /* Set the color */
+    }
+
+    ul {
+        width: calc(100% - 20%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            font-size: larger;
+            cursor: pointer;
+            margin: 30px 0;
+
+            i {
+                transform: rotate(45deg);
+            }
+        }
+
+        li:nth-child(-n + 2) {
+            &:hover {
+                color: var(--blue);
+            }
+        }
+        li:nth-child(-n + 1) {
+            &:hover {
+                color: fuchsia;
+            }
+        }
+        li:nth-last-child(-n + 2) {
+            &:hover {
+                color: red;
+            }
+        }
+        li:nth-last-child(-n + 1) {
+            &:hover {
+              //  transition: 0.5s;
+                color: green;
+            }
+        }
+    }
+}
