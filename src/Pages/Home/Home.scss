@@ -8,14 +8,15 @@
 // }
 
 .main-hero {
-    height: 100vh;
-    background: url(../../assets/bgimg.svg), linear-gradient(to bottom, #eeeafe 30%, #fbf8ff 75%, #fbf8ff 75%);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 140vh;
+   // background: url(../../assets/bgimg.svg), linear-gradient(to bottom, #eeeafe 30%, #fbf8ff 75%, #fbf8ff 75%);
+   // background-repeat: no-repeat;
+   background-image: url(https://lareinedufrais.com/assets/images/home_back.jpg);    
+   background-size: 100vw 200vh;
 
     .hero {
         gap: 2rem;
-        height: 80%;
+        height: 60%;
         // background: linear-gradient(to bottom, #eeeafe 30%, #fbf8ff 75%, #fbf8ff 75%);
         -webkit-user-select: none;
         user-select: none;
@@ -24,7 +25,7 @@
             display: flex;
             align-items: flex-start;
             flex-direction: column;
-            gap: 6rem;
+            gap: 30px;
             h1 {
                 font-size: 3.9rem;
                 font-weight: bold;
@@ -50,54 +51,101 @@
         }
     }
 
-    .hero-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        //margin-bottom: 4rem;
 
-        .hero-text {
-            width: 75vw;
-            height: 7rem;
-            padding: 0 8rem;
-            display: flex;
+
+    .brand_msg{
+        padding: 0;
+        padding-top: 1rem;
+        margin-bottom: 8rem;
+        padding-inline-start: 20rem;
+        padding-inline-end: 20rem;
+        .section_content{
             text-align: center;
-            justify-content: center;
-            border: 2px solid #000;
-            align-items: center;
-            -webkit-user-select: none;
-            user-select: none;
-            transition: all 0.05s linear;
+            display: block;
+            cursor: pointer;
+            div{
+                padding-block: 2rem;
+                padding-inline: 2rem;
+                width: 100%;
+                font-size: 1.5rem;
+                position: relative;
 
-            &::before,
-            &::after {
-                content: "";
-                position: absolute;
-                background: #fbf8ff;
-                z-index: -10;
-            }
+                p{
+                    margin-bottom: 1px solid rgb(0, 166, 255);
+                    font-size: 2rem;
+                    font-weight: 300;
+                    span{
+                        color:  #0066FF;
+                    }
+                }
 
-            &::before {
-                width: calc(75vw + 6px);
-                height: calc(100% - 22px);
-            }
-            &::after {
-                width: calc(75vw - 22px);
-                height: calc(100% + 6px);
-            }
-            p {
-                font-size: 1.8rem;
-                letter-spacing: 0.3px;
-                z-index: 3;
-                span {
-                    color: var(--blue);
+                .cornners{
+                    padding: 0;
+                    position: absolute;
+                    inset: 0;
+                    display: grid;
+                    grid-template-areas: 
+                                "a b"
+                                "c d";
+                    place-content: space-between;
+                    text-align: center;
+
+                    i:nth-child(1){
+                        transform: rotate(-135deg);
+                    }
+                    i:nth-child(2){
+                        transform: rotate(-45deg);
+                    }
+                    i:nth-child(3){
+                        transform: rotate(135deg);
+                    }
+                    i:nth-child(4){
+                        transform: rotate(45deg);
+                    }
                 }
             }
         }
     }
+
+    // .hero-content {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     //margin-bottom: 4rem;
+
+    //     .hero-text {
+    //         width: 75vw;
+    //         height: 7rem;
+    //         padding: 0 8rem;
+    //         display: flex;
+    //         text-align: center;
+    //         justify-content: center;
+    //         align-items: center;
+    //         -webkit-user-select: none;
+    //         user-select: none;
+    //         transition: all 0.05s linear;
+
+    //         .arrows{
+    //             position: relative;
+    //             i:nth-child(1){
+    //                 top: 0;
+    //                 left: 0;
+    //             }
+    //         }
+    //         p {
+    //             font-size: 1.8rem;
+    //             letter-spacing: 0.3px;
+    //             z-index: 3;
+    //             span {
+    //                 color: var(--blue);
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 .about {
+    margin-top: 5rem;
     div {
         display: flex;
         flex-direction: column;

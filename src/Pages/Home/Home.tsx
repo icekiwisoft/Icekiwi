@@ -23,6 +23,11 @@ const Home = () => {
         <div className=' hero padding-body flex'>
           <div className='hero-left'>
             <h1>Transformez Votre Vision En Réalité  Avec <span>IceKiwi.</span></h1>
+            <p>Chez IceKiwi, nous comprenons que le succès de votre entreprise dépend
+              de la performance et de la fiabilité de vos systèmes informatiques.
+              C'est pourquoi nous offrons une gamme complète de services informatiques
+              personnalisés pour répondre à vos besoins spécifiques.
+            </p>
             <div className='left-button flex'>
               <button className='button'>Nous Contecter</button>
               <button className='button left-button2'>Nos services</button>
@@ -30,18 +35,30 @@ const Home = () => {
           </div>
           <img src={Heroimg} alt="" />
         </div>
-        <div className='hero-content'>
-          <div className='hero-text'>
-            <p>
-              Découvrez <span>l&apos;excellence</span> du développement avec IceKiwi,
-              votre partenaire innovant pour des solutions <span>numériques de pointe.</span>
-            </p>
+
+        <div>
+          <div className='brand_msg'>
+            <div className='section_content'>
+              <div>
+                <div className="cornners">
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <p>
+                  Découvrez <span>l&apos;excellence</span> du développement avec IceKiwi,
+                  votre partenaire innovant pour des solutions <span>numériques de pointe.</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
 
       <div>
-        <div className='about flex padding-body mt mb'>
+        <div className='about flex padding-body  mb'>
           <img src={AboutImg} alt="" />
           <div>
             <h2>Qui somme Nous ?</h2>
@@ -137,11 +154,11 @@ const Home = () => {
         <h1>Icekiwi</h1>
         <hr />
         <ul>
-            <li>Instagram &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
-            <li>Facebook &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
-            <li>&copy; Icekiwi 2024</li>
-            <li>Mails news &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
-            <li>Whatsapp &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+          <li>Instagram &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+          <li>Facebook &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+          <li>&copy; Icekiwi 2024</li>
+          <li>Mails news &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
+          <li>Whatsapp &nbsp;<i className="fa-solid fa-arrow-up"></i></li>
         </ul>
       </footer>
 
