@@ -1,19 +1,16 @@
-import React from 'react'
-import Nav from '../../Components/Nav/Nav'
-import './Home.scss'
-import Heroimg from '../../assets/Heroimg.png'
-import AboutImg from '../../assets/aboutimg.png'
-import Computer from '../../assets/Computer.png'
-import circles from '../../assets/circles.png'
+import Nav from '../Components/Nav/Nav'
+import '../styles/Home.css'
+import Heroimg from '../assets/Heroimg.png'
+import AboutImg from '../assets/aboutimg.png'
+import Computer from '../assets/Computer.png'
+import circles from '../assets/circles.png'
 
-import css from '../../assets/tech/css.png'
-import reactjs from '../../assets/tech/reactjs.png'
-import mongodb from '../../assets/tech/mongodb.png'
-import git from '../../assets/tech/git.png'
-import figma from '../../assets/tech/figma.png'
-import docker from '../../assets/tech/docker.png'
-import typescript from '../../assets/tech/typescript.png'
-
+import reactjs from '../assets/tech/reactjs.png'
+import mongodb from '../assets/tech/mongodb.png'
+import git from '../assets/tech/git.png'
+import figma from '../assets/tech/figma.png'
+import docker from '../assets/tech/docker.png'
+import typescript from '../assets/tech/typescript.png'
 
 const Home = () => {
   return (
@@ -41,10 +38,10 @@ const Home = () => {
             <div className='section_content'>
               <div>
                 <div className="cornners">
-                  <i class="fa-solid fa-chevron-right"></i>
-                  <i class="fa-solid fa-chevron-right"></i>
-                  <i class="fa-solid fa-chevron-right"></i>
-                  <i class="fa-solid fa-chevron-right"></i>
+                  <i className="fa-solid fa-chevron-right"></i>
+                  <i className="fa-solid fa-chevron-right"></i>
+                  <i className="fa-solid fa-chevron-right"></i>
+                  <i className="fa-solid fa-chevron-right"></i>
                 </div>
                 <p>
                   Découvrez <span>l&apos;excellence</span> du développement avec IceKiwi,
